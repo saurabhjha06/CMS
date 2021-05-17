@@ -1,0 +1,67 @@
+JFDML JFormDesigner: "5.2.2.0.199" Java: "1.8.0_45" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "CMS Welcome Screen Panel"
+			"font": new java.awt.Font( "Dialog", 1, 14 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "Titlepanel"
+				"border": new javax.swing.border.MatteBorder( 2, 2, 2, 2, sfield java.awt.Color black )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "title"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\title_1461243353394.jpg" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 0
+					"width": 870
+					"height": 80
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 15
+				"width": 870
+				"height": 80
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "ProgressBarpanel"
+				add( new FormComponent( "javax.swing.JProgressBar" ) {
+					name: "progressBar1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 20
+					"y": 5
+					"width": 525
+					"height": 25
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 395
+				"width": 555
+				"height": 35
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "logo1"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\LiteViewer-Help-desk-e1399335473258.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 460
+				"y": 120
+				"width": 415
+				"height": 255
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "logo2"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\Update-welcome.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 115
+				"width": 425
+				"height": 260
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 10 )
+			"size": new java.awt.Dimension( 925, 470 )
+		} )
+	}
+}

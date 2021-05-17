@@ -1,0 +1,319 @@
+JFDML JFormDesigner: "5.2.2.0.199" Java: "1.8.0_45" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				"border": new javax.swing.border.LineBorder( new java.awt.Color( 222, 89, 145, 204 ), 8, true )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "         PRODUCT SPECIFICATION FORM"
+					"font": new java.awt.Font( "Tahoma", 0, 26 )
+					"foreground": new java.awt.Color( 0, 102, 102, 255 )
+					"border": new javax.swing.border.LineBorder( new java.awt.Color( 0, 102, 51, 255 ), 4, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 220
+					"y": 15
+					"width": 555
+					"height": 50
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 10
+				"width": 1000
+				"height": 80
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel4"
+				"background": new java.awt.Color( 42, 146, 119, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel5"
+					"border": new javax.swing.border.TitledBorder( new javax.swing.border.BevelBorder( 0, sfield java.awt.Color white, null, null, null ), "Device Information", 4, 0, new java.awt.Font( "Franklin Gothic Demi Cond", 0, 24 ), sfield java.awt.Color white )
+					"background": new java.awt.Color( 42, 146, 119, 255 )
+					"font": &Font0 new java.awt.Font( "Verdana", 0, 22 )
+					"foreground": sfield java.awt.Color white
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Category"
+						"font": #Font0
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 20
+						"y": 40
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "Model No"
+						"font": #Font0
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 20
+						"y": 90
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Serial No"
+						"font": #Font0
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 20
+						"y": 145
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox1"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "[Select Device Category]"
+							addElement( "[Select Device Category]" )
+						}
+						"border": new javax.swing.border.BevelBorder( 0, sfield java.awt.Color white, null, null, null )
+						"font": new java.awt.Font( "Tahoma", 0, 12 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 190
+						"y": 45
+						"width": 165
+						"height": 25
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 190
+						"y": 95
+						"width": 165
+						"height": 25
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 190
+						"y": 150
+						"width": 165
+						"height": 25
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 10
+					"y": 20
+					"width": 460
+					"height": 220
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel2"
+					"background": new java.awt.Color( 42, 146, 119, 255 )
+					"border": new javax.swing.border.TitledBorder( new javax.swing.border.BevelBorder( 1, null, null, null, null ), "Invoice Details", 4, 0, new java.awt.Font( "Franklin Gothic Demi Cond", 0, 24 ), sfield java.awt.Color white )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "Invoice No."
+						"font": &Font1 new java.awt.Font( "Verdana", 0, 22 )
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 30
+						"y": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "Date of Purchase "
+						"font": #Font1
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 550
+						"y": 40
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "Delear Name"
+						"font": #Font1
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 25
+						"y": 95
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "Address:-"
+						"font": #Font1
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 30
+						"y": 160
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField3"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 195
+						"y": 165
+						"width": 340
+						"height": 95
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField4"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 205
+						"y": 45
+						"width": 255
+						"height": 25
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel3"
+						"background": new java.awt.Color( 42, 146, 119, 255 )
+						"border": new javax.swing.border.BevelBorder( 0, null, null, null, null )
+						add( new FormComponent( "javax.swing.JComboBox" ) {
+							name: "comboBox2"
+							"model": new javax.swing.DefaultComboBoxModel {
+								selectedItem: "[dd]"
+								addElement( "[dd]" )
+							}
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 750
+							"y": 10
+							"height": 25
+						} )
+						add( new FormComponent( "javax.swing.JComboBox" ) {
+							name: "comboBox3"
+							"model": new javax.swing.DefaultComboBoxModel {
+								selectedItem: "[mm]"
+								addElement( "[mm]" )
+							}
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 810
+							"y": 10
+							"height": 25
+						} )
+						add( new FormComponent( "javax.swing.JComboBox" ) {
+							name: "comboBox4"
+							"model": new javax.swing.DefaultComboBoxModel {
+								selectedItem: "[yy]"
+								addElement( "[yy]" )
+							}
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 865
+							"y": 10
+							"height": 25
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 30
+						"width": 955
+						"height": 50
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel6"
+						"background": &Color0 new java.awt.Color( 42, 146, 119, 255 )
+						"border": &BevelBorder0 new javax.swing.border.BevelBorder( 0, null, null, null, null )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label9"
+							"text": "Contact No."
+							"font": new java.awt.Font( "Verdana", 0, 22 )
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 545
+							"y": 15
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField6"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 750
+							"y": 10
+							"width": 190
+							"height": 30
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField5"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 195
+							"y": 15
+							"width": 255
+							"height": 25
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 90
+						"width": 955
+						"height": 55
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel7"
+						"background": #Color0
+						"border": #BevelBorder0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label10"
+							"text": "Registration No."
+							"font": new java.awt.Font( "Verdana", 0, 22 )
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 550
+							"y": 65
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField7"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 755
+							"y": 65
+							"width": 190
+							"height": 30
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 155
+						"width": 955
+						"height": 115
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 15
+					"y": 260
+					"width": 975
+					"height": 280
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel8"
+					"background": new java.awt.Color( 42, 146, 119, 255 )
+					"border": new javax.swing.border.TitledBorder( new javax.swing.border.BevelBorder( 1, null, null, null, null ), "Remarks", 4, 0, new java.awt.Font( "Franklin Gothic Demi Cond", 0, 22 ), sfield java.awt.Color white )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField8"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 30
+						"y": 50
+						"width": 380
+						"height": 150
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 510
+					"y": 15
+					"width": 445
+					"height": 225
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\Screenshot_20160306-171652.png" )
+					"text": "Exit"
+					"font": new java.awt.Font( "Times New Roman", 0, 24 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 95
+					"y": 550
+					"width": 150
+					"height": 50
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\save (2).png" )
+					"text": "Save"
+					"font": new java.awt.Font( "Times New Roman", 0, 24 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 690
+					"y": 550
+					"width": 150
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 85
+				"width": 1000
+				"height": 610
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1010, 700 )
+		} )
+	}
+}

@@ -1,0 +1,407 @@
+JFDML JFormDesigner: "5.2.2.0.199" Java: "1.8.0_45" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "COMPLAINT MANAGEMENT STYSTEM"
+			"background": new java.awt.Color( 153, 204, 255, 255 )
+			"$sizePolicy": 0
+			"$locationPolicy": 1
+			"visible": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				"border": new javax.swing.border.LineBorder( new java.awt.Color( 222, 89, 145, 204 ), 8, true )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "   COMPLAINT MANAGEMENT SYSTEM"
+					"font": new java.awt.Font( "Times New Roman", 0, 26 )
+					"border": new javax.swing.border.BevelBorder( 0, new java.awt.Color( 0, 102, 51, 255 ), new java.awt.Color( 0, 102, 51, 255 ), new java.awt.Color( 0, 102, 51, 255 ), new java.awt.Color( 0, 102, 51, 255 ) )
+					"foreground": new java.awt.Color( 0, 102, 51, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 225
+					"y": 10
+					"width": 510
+					"height": 40
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 1173
+				"height": 65
+				"x": 0
+			} )
+			add( new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				"preferredSize": new java.awt.Dimension( 396, 21 )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu1"
+					"text": "CMS MASTER"
+					"mnemonic": 77
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu7"
+						"text": "Create"
+						"mnemonic": 67
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem25"
+							"text": " New Registration"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem1"
+							"text": "Product Category"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu8"
+						"text": "Modify"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem2"
+							"text": "Registration form"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem3"
+							"text": "Customer profile"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem4"
+							"text": "Category"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem5"
+							"text": "Report"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem26"
+							"text": "Agent"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu9"
+						"text": "Search"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem27"
+							"text": "Agent ID"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem28"
+							"text": "Complaint No"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem29"
+							"text": "Report ID"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu10"
+						"text": "Restore/Backup"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem30"
+							"text": "Customer Records"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem31"
+							"text": "Transaction Records"
+						} )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": "COMPLAINT"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem9"
+						"text": "Customer Profile"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem10"
+						"text": "Create Invoice"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem11"
+						"text": "Departmental Invoice"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem12"
+						"text": "Scheduling"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem13"
+						"text": "Confirmation"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu3"
+					"text": "STATUS"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem14"
+						"text": "Track Complaint"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem15"
+						"text": "Acknowledgment"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem16"
+						"text": "Track Charged Amount"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem17"
+						"text": "Extend Warranty"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu4"
+					"text": "REPORT"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem18"
+						"text": "Customer"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem19"
+						"text": "Stock Report"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu5"
+					"text": "TRANSACTION"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem20"
+						"text": "Bill Payment"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem21"
+						"text": "Recipt"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu6"
+					"text": "ADMIN"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem22"
+						"text": "Login"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem23"
+						"text": "Salary"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem24"
+						"text": "Update Tax"
+					} )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 65
+				"width": 1173
+				"height": 35
+				"x": 0
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "componentPanel"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "dashboardPanel"
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+							name: "panel2"
+							"background": new java.awt.Color( 42, 146, 119, 255 )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+								name: "panel7"
+							}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+								"x": 0
+								"y": 550
+								"height": 0
+								"width": 965
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+								name: "panel3"
+								"border": new javax.swing.border.TitledBorder( new javax.swing.border.BevelBorder( 0, sfield java.awt.Color white, null, null, null ), "Dashboard", 4, 0, new java.awt.Font( "Franklin Gothic Demi Cond", 0, 24 ), sfield java.awt.Color white )
+								"background": new java.awt.Color( 42, 146, 119, 255 )
+								add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+									name: "panel5"
+									"border": new javax.swing.border.LineBorder( sfield java.awt.Color white, 2, false )
+									add( new FormComponent( "javax.swing.JLabel" ) {
+										name: "label3"
+										"text": "Search Complaint"
+										"font": &Font0 new java.awt.Font( "Verdana", 1, 22 )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 20
+										"y": 55
+										"width": 220
+									} )
+									add( new FormComponent( "javax.swing.JLabel" ) {
+										name: "label4"
+										"text": "Know your Customer"
+										"font": #Font0
+										"horizontalAlignment": 0
+										addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label4MouseClicked", true ) )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 10
+										"y": 10
+										"width": 295
+									} )
+									add( new FormComponent( "javax.swing.JLabel" ) {
+										name: "label5"
+										"text": "Service Charges"
+										"font": #Font0
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 325
+										"y": 15
+										"width": 215
+									} )
+									add( new FormComponent( "javax.swing.JLabel" ) {
+										name: "label6"
+										"text": " Technician Info"
+										"font": #Font0
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 315
+										"y": 55
+										"width": 245
+										"height": 40
+									} )
+									add( new FormComponent( "javax.swing.JLabel" ) {
+										name: "label7"
+										"text": "Check Invoice"
+										"font": #Font0
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 20
+										"y": 100
+										"width": 200
+									} )
+									add( new FormComponent( "javax.swing.JLabel" ) {
+										name: "label8"
+										"text": "Serviced Device"
+										"font": new java.awt.Font( "Verdana", 1, 22 )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 320
+										"y": 100
+										"height": 38
+									} )
+									add( new FormComponent( "javax.swing.JSeparator" ) {
+										name: "separator1"
+										"orientation": 1
+										"foreground": new java.awt.Color( 0, 0, 0, 255 )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 305
+										"y": 5
+										"height": 175
+										"width": 20
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel8"
+										"background": new java.awt.Color( 255, 204, 204, 255 )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 5
+										"y": 5
+										"width": 295
+										"height": 40
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel9"
+										"background": new java.awt.Color( 255, 204, 204, 255 )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 5
+										"y": 50
+										"width": 295
+										"height": 40
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel10"
+										"background": new java.awt.Color( 255, 204, 204, 255 )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 5
+										"y": 95
+										"width": 295
+										"height": 40
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel11"
+										"background": &Color0 new java.awt.Color( 255, 204, 204, 255 )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 310
+										"y": 10
+										"height": 40
+										"width": 320
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel12"
+										"background": #Color0
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 310
+										"y": 55
+										"height": 40
+										"width": 320
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel13"
+										"background": #Color0
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 310
+										"y": 100
+										"width": 320
+										"height": 40
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel15"
+										"background": &Color1 new java.awt.Color( 255, 204, 204, 255 )
+										add( new FormComponent( "javax.swing.JLabel" ) {
+											name: "label13"
+											"text": "Track Service"
+											"font": &Font1 new java.awt.Font( "Verdana", 1, 22 )
+										}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+											"x": 25
+											"y": 5
+										} )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 5
+										"y": 140
+										"width": 295
+										"height": 40
+									} )
+									add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+										name: "panel16"
+										"background": #Color1
+										add( new FormComponent( "javax.swing.JLabel" ) {
+											name: "label14"
+											"text": "Rejected Complaints"
+											"font": #Font1
+										}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+											"x": 10
+											"y": -5
+											"height": 40
+										} )
+									}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+										"x": 310
+										"y": 145
+										"width": 320
+										"height": 35
+									} )
+								}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+									"x": 20
+									"y": 45
+									"height": 190
+									"width": 640
+								} )
+							}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+								"x": 5
+								"y": 10
+								"width": 960
+								"height": 270
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"y": 90
+							"width": 1173
+							"x": 0
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "Center"
+					} )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 1175
+				"height": 675
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1000, 660 )
+		} )
+	}
+}

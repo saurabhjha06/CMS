@@ -1,0 +1,160 @@
+JFDML JFormDesigner: "5.2.2.0.199" Java: "1.8.0_45" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"border": new javax.swing.border.LineBorder( new java.awt.Color( 0, 102, 51, 255 ), 2, false )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "ServicePanel"
+				"border": new javax.swing.border.TitledBorder( new javax.swing.border.LineBorder( new java.awt.Color( 0, 102, 51, 255 ), 2, false ), "Select Service", 1, 0, new java.awt.Font( "Cambria", 1, 20 ), new java.awt.Color( 0, 102, 51, 255 ) )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox1"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "[Select Service Option]"
+						addElement( "[Select Service Option]" )
+						addElement( "Repair" )
+						addElement( "Replacement" )
+						addElement( "Cleaning" )
+						addElement( "Lubrication" )
+						addElement( "Warranty Extension" )
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 315
+					"y": 40
+					"width": 225
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Service Cataloge"
+					"font": new java.awt.Font( "Tahoma", 0, 18 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 35
+					"y": 40
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Tax& Others"
+					"font": &Font0 new java.awt.Font( "Tahoma", 0, 18 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 35
+					"y": 90
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "Spares&Components"
+					"font": #Font0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 30
+					"y": 145
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox2"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "[Select Spare Choice]"
+						addElement( "[Select Spare Choice]" )
+						addElement( "Battery" )
+						addElement( "Display" )
+						addElement( "Sound Components" )
+						addElement( "Cooling spares" )
+						addElement( "Switching tools" )
+						addElement( "Power units" )
+						addElement( "Cabinets" )
+						addElement( "Input units" )
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 315
+					"y": 145
+					"width": 220
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "yesRadioBtn"
+					"text": "Yes"
+					"font": &Font1 new java.awt.Font( "Tahoma", 0, 14 )
+					"$buttonGroup": new FormReference( "TaxBtnGroup" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 315
+					"y": 90
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "noRadioBtn"
+					"text": "No"
+					"font": #Font1
+					"$buttonGroup": new FormReference( "TaxBtnGroup" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 390
+					"y": 90
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "exitBtn"
+					"text": "Exit"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\exitnew.png" )
+					"font": &Font2 new java.awt.Font( "Tahoma", 0, 16 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "checkBtnActionPerformed", false ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 90
+					"y": 225
+					"width": 145
+					"height": 50
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "checkBtn"
+					"text": "Check"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\icon-services.21092210_std.png" )
+					"font": #Font2
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "checkBtnActionPerformed", false ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 345
+					"y": 225
+					"width": 145
+					"height": 50
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 40
+				"y": 125
+				"width": 640
+				"height": 300
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "E:\\Project\\Image\\Check_Balances-512.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 75
+				"y": 25
+				"width": 65
+				"height": 55
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel3"
+				"border": new javax.swing.border.MatteBorder( 2, 2, 2, 2, new java.awt.Color( 0, 102, 51, 255 ) )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "    Service Charge Description"
+					"font": new java.awt.Font( "Andalus", 1, 24 )
+					"foreground": new java.awt.Color( 0, 102, 51, 255 )
+					"border": new javax.swing.border.MatteBorder( 2, 2, 1, 2, new java.awt.Color( 0, 102, 51, 255 ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 145
+					"y": 15
+					"width": 382
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 45
+				"y": 20
+				"width": 645
+				"height": 70
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 730, 470 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "TaxBtnGroup"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 480 )
+		} )
+	}
+}

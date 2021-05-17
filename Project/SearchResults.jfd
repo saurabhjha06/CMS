@@ -1,0 +1,174 @@
+JFDML JFormDesigner: "5.2.2.0.199" Java: "1.8.0_45" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "Search Results"
+			"background": sfield java.awt.Color lightGray
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Search Results are as follows:-"
+				"font": new java.awt.Font( "Times New Roman", 1, 24 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 35
+				"y": 25
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table1"
+					"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+						add( new java.util.Vector {
+							add( "Saurabh" )
+							add( "REG0006" )
+							add( "9304438190" )
+							add( "07/02/2015" )
+							add( "680" )
+						} )
+						add( new java.util.Vector {
+							add( "Rakesh" )
+							add( "REG0002" )
+							add( "9934571037" )
+							add( "05/01/2015" )
+							add( "720" )
+						} )
+						add( new java.util.Vector {
+							add( "Amit" )
+							add( "REG0003" )
+							add( "9835017112" )
+							add( "02/02/2015" )
+							add( "720" )
+						} )
+						add( new java.util.Vector {
+							add( "Sumit" )
+							add( "REG0004" )
+							add( "9124879548" )
+							add( "03/03/2015" )
+							add( "620" )
+						} )
+						add( new java.util.Vector {
+							add( "Ravi" )
+							add( "REG0005" )
+							add( "7855489022" )
+							add( "27/02/2015" )
+							add( "910" )
+						} )
+						add( new java.util.Vector {
+							add( "Nishant" )
+							add( "REG0006" )
+							add( "7785858621" )
+							add( "21/02/2015" )
+							add( "720" )
+						} )
+						add( new java.util.Vector {
+							add( "Vishwas" )
+							add( "REG0007" )
+							add( "9921457895" )
+							add( "17/01/2015" )
+							add( "620" )
+						} )
+						add( new java.util.Vector {
+							add( "Sunil" )
+							add( "REG0008" )
+							add( "9835210547" )
+							add( "15/02/2015" )
+							add( "620" )
+						} )
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+					}, new java.util.Vector {
+						add( "NAME" )
+						add( "COMPLAIN NO" )
+						add( "MOBILE NO" )
+						add( "COMPLAINT ON" )
+						add( "MODEL NO" )
+					}, new java.util.Vector {
+						add( class java.lang.Object )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( true )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( new com.jformdesigner.model.SwingTableColumn( new java.lang.Object[ "Saurabh", "Rakesh", "Amit", "Sumit", "Ravi", "Nishant", "Vishwas", "Sunil", "Prashant" ], 0, 0, 0, false ) )
+						add( new com.jformdesigner.model.SwingTableColumn( new java.lang.Object[ "REG0001", "REG0002", "REG0003", "REG0004", "REG0005", "REG0006", "REG0007", "REG0008", "REG0009" ], 0, 0, 0, true ) )
+						add( new com.jformdesigner.model.SwingTableColumn( new java.lang.Object[ "9304438190", "9934571037", "9835017112", "9124879548", "7855489022", "7785858621", "9921457895", "9835210547", "9935875210" ], 0, 0, 0, true ) )
+						add( new com.jformdesigner.model.SwingTableColumn( new java.lang.Object[ "07/02/2015", "05/01/2015", "02/02/2015", "03/03/2015", "27/02/2015", "21/02/2015", "17/01/2015", "15/02/2015", "09/01/2015" ], 0, 0, 0, true ) )
+						add( new com.jformdesigner.model.SwingTableColumn( new java.lang.Object[ "680", "720", "720", "620", "910", "720", "620", "620", "620" ], 0, 0, 0, true ) )
+					} )
+					"cellSelectionEnabled": true
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 35
+				"y": 85
+				"height": 255
+				"width": 560
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "*Above records are from compalints registered eariler"
+				"font": new java.awt.Font( "Tahoma", 0, 20 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 275
+				"y": 385
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 15, 35 )
+			"size": new java.awt.Dimension( 810, 485 )
+		} )
+	}
+}
